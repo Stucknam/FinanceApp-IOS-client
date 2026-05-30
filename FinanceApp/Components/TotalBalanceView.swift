@@ -1,0 +1,1 @@
+////  TotalBalanceView.swift//  FinanceApp////  Created by user271129 on 5/28/26.//import SwiftUIstruct TotalBalanceView: View {    let total: Decimal    var body: some View {        Text(total.money)            .font(.largeTitle.bold())            .frame(maxWidth: .infinity, alignment: .leading)    }}

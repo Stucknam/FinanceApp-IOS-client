@@ -1,0 +1,1 @@
+////  IncomeExpenseToggle.swift//  FinanceApp////  Created by user271129 on 5/28/26.//import SwiftUIstruct IncomeExpenseToggle: View {    @Binding var isExpense: Bool    var body: some View {        Picker("", selection: $isExpense) {            Text("Расход").tag(true)            Text("Доход").tag(false)        }        .pickerStyle(.segmented)    }}
